@@ -1,1 +1,4 @@
-﻿Console.WriteLine(Game.Games.CalculatePossibleGames());
+﻿using Game;
+
+Console.WriteLine(Games.CalculatePossibleGames());
+Console.WriteLine(Power.CalculateMinDice());
